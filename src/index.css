@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    margin: 0;
+	  padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+
+b {
+    font-weight: bold;
+}
+
+#root {
+    background-color: #011126;
+  }
+
+  small {
+    font-size: large;
+    letter-spacing: 0.02em;
+    font-variant: small-caps;
+  }
+  
+  .App {
+    text-align: center;
+    background: url(images/image.png);
+    background-size: cover;
+    background-color: #011126;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+  }
+
+  .inline {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .nav-list {
+    justify-content: flex-end;
+    padding-top: 30px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-right: 2rem;
+    font-variant: small-caps;
+    font-size: large;
+    letter-spacing: 1px;
+    list-style: none;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .nav-item a:hover {
+    text-decoration: line-through;
+    opacity: 30%;
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+  }
+
+  /* .nav-item:last-child {
+    background-color: #FFFFFF;
+    color: #011126;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    font-variant: small-caps;
+    padding: 15px 30px;
+  } */
+
+  /* .nav-item:last-child  a:hover {
+    text-decoration: none;
+    padding: inherit;
+    color: #011126;
+    background-color: #FFFFFF;
+  } */
+
+  .ant-spin-text {
+    color: white;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    width: 100%;
+    max-width: 697px;
+    align-items: center;
+  }
+  
+  .line {
+    width: 40px;
+    height: 0px;
+    margin: 5px 0;
+    border: 1px solid #FFFFFF;
+  }
+  
+  h1 {
+    width: 100%;
+    letter-spacing: 0.02em;
+    line-height: 39.2px;
+    margin-bottom: 5px;
+    max-width: 614px;
+  }
+  
+  h2 {
+    display: flex;
+    gap: 5px;
+    letter-spacing: 0.02em;
+    font-variant: small-caps;
+    font-style: normal;
+  }
+
+  h2::before {
+      margin-top: 10px;
+  }
+  
+  p {
+    font-size: 12pt;
+    line-height: 29.2px;
+    letter-spacing: 0.04em;
+    font-style: normal;
+    font-variant: small-caps;
+  }
+  
+  span {
+    text-decoration: underline;
+  }
+
+  .userEmail {
+    padding: 1em;
+    width: 240px;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    font-size: 16px;
+    border: none;
+  }
+
+  .userSubmit {
+    border: none;
+    text-align: center;
+    margin-left: 12px;
+    width: 120px;
+    padding: 1em;
+    background-color: #4B43E9;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-variant: small-caps;
+    font-size: initial;
+    color: white;
+  }
+
+  userSubmit:hover {
+    background-color: #3E37C8;
+  }
+  
+
+  .result {
+    color: white;
+  }
+
+  button {
+    padding: 15px 30px;
+    letter-spacing: 1px;
+    background-color: #4B43E9;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: large;
+    font-variant: small-caps;
+  }
+
+  button:hover {
+    background-color: #3E37C8;
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+
+  /* @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    .nav-item {
+      margin: 0px;
+    }
+
+    .nav-list {
+      flex-direction: column;
+      padding: 0px;
+      gap: 25px;
+    }
+
+    .inline {
+      flex-direction: column;
+    }
+  } */
