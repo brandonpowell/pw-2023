@@ -9,7 +9,7 @@ import Loading from "./shared/loading";
   // eslint-disable-next-line
   class FormComp extends Component {
 
-    constructor(props){
+    constructor(props){//It's used for initiatizing the local state of the component by assigning an object to this. state.
       super(props);
       this.state = {
         email: '', //the form does not have the input or email will be empty.
@@ -91,6 +91,7 @@ import Loading from "./shared/loading";
                 type="subscribe"
                 value="subscribe" />
             </form>
+            
               <div className="success">
                   {this.state.success}
               </div>
